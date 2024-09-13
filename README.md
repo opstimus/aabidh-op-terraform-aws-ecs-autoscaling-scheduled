@@ -1,4 +1,4 @@
-# AWS App Autoscaling Scheduled Action Module
+# AWS ECS Auto Scaling Scheduled Action Module
 
 ## Description 
 
@@ -27,13 +27,6 @@ This Terraform module creates an AWS App Autoscaling scheduled action. It allows
 | min_capacity    | Minimum capacity              | number | -       | yes      | 
 | max_capacity    | Maximum capacity              | number | -       | yes      | 
 | resource_id     | Resource ID for scaling       | string | -       | yes      | 
-
-## Outputs 
-
-| Name      | Description                      | 
-|-----------|----------------------------------| 
-| vpc_id    | The ID of the VPC                 | 
-| vpc_cidr  | The CIDR block of the VPC         | 
 
 ## Usage examples 
 
